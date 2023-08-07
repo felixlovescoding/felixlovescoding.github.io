@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<footer>
+  <div class="footer-content">
+    <ul>
+      <li>
+        <a href="https://www.instagram.com/happy._.zhou/" target="_blank">Instagram</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/felix-zhou-101086283" target="_blank">Linkedin</a>
+      </li>
+      <li>
+          <a href="https://github.com/felixlovescoding" target="_blank">GitHub</a>
+        </li>
+    </ul>
+  </div>
+</footer>
+	<!-- The boring part! -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>My First Portfolio</title>
+	<meta content="Development portfolio of .... " name="description" property="og:description">
+	
+	<!-- Link to the relevant stylesheet -->
+	<link  rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">	
+  <!--[if lte IE 8]>
+      <link href="dist/css/blockIE.css" rel="stylesheet">
+    <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!-- Load JQuery, as our little script depends on it -->
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js></script> <!--imports a link for the typing animation-->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css"> <!-- Load our font from Google -->
+  <!-- The JS code block has been moved into the index.js file.  -->
+  <script src="./index.js"></script>
+</head>
+<body>
+	<!-- This calls the little script written above. -->
+  <div class="preloader"></div>
+  <main>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- The Intro section begins -->
+  <section>
+    
+
+    <div class="intro-wrapper">
+      <div class="static-txt">Hi! 👋  &mdash; My name is <span>Felix Zhou</span>, I'm a </div>
+      <ul class="dynamic-txts">
+        <li><span>YouTuber</span></li>
+        <li><span>Designer</span></li>
+        <li><span>Developer</span></li>
+        <li><span>Freelancer</span></li>
+      </ul>
+    </div>
+
+	</section>
+
+  <section class="about-section" id="about">
+    <h2 class="section__title">About Me</h2>
+    <span class="section__subtitle">My introduction</span>
+  
+    <div class="about__container container grid">
+      <div class="about__img">
+        <img src="https://live.staticflickr.com/65535/53097455779_6bb21b05e9_z.jpg" alt="">
+      </div>
+  
+      <div class="about__content">
+        <div class="about__description">
+          With ambitions and a passion for programming, I aspire to make a mark in the AI/ML field. With a strong foundation in coding and a natural curiosity for emerging technologies, I am dedicated to gaining the necessary skills and knowledge to excel in this rapidly evolving field.
+        </div>
+  
+        <div class="about__info">
+          <div>
+            <span class="about__info-title">07+</span>
+            <span class="about__info-name">Languages<br>Learned</span>
+          </div>
+          <div>
+            <span class="about__info-title">07+</span>
+            <span class="about__info-name">Completed<br>Projects</span>
+          </div>
+          <div>
+            <span class="about__info-title">05+</span>
+            <span class="about__info-name">Projects<br>Managed</span>
+          </div>
+        </div>
+  
+        <div class="about__buttons">
+          <a download="" href="Felix_Zhou_Internship.pdf" class="button button--flex">
+            Download CV<i class="uil uil-download-alt button__icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+	<!-- Intro section ends -->
+	
+	<!-- The portfolio section begins -->
+  <!-- Please note: all of the following images are from Unsplash. I do not own the rights to them, and I have used them according to Unsplash's
+    href="https://www.github.com/jabedford"
+				rules and regulations. All credits go to original owners/photographers.-->
+
+        <section class="projects">
+          <div class="projects-collage">
+      
+
+        <a class="project-item"  target="_blank">
+          <figure class="project-figure">
+            <div class="project-overlay"></div>
+            <img src="https://live.staticflickr.com/65535/53097456379_882ed3d590_o.jpg">
+            <figcaption class="project-text">
+              <h2>Project One</h2>
+              <p>Number Reader ML Model</p>
+             <!-- *********************** -->
+              <!-- START OF HIDDEN ELEMENTS -->
+  
+              <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+              HINTS: The P tag next
+              First Anchor tag is for the project's github REPO
+              Second Anchor is for the project's live preview  -->
+  
+             <p class='hidden popUpdesc'> The Python Number Reading machine learning project is an innovative and efficient solution that demonstrates the power of artificial intelligence in recognizing and interpreting numerical characters. Developed using popular libraries such as Keras, TensorFlow, Matplotlib, and NumPy, this project aims to accurately identify and interpret handwritten or digitally-rendered numbers
+            </p>
+        <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+          <span id="githubRepo" href="https://github.com/felixlovescoding/ML-Number-Reader"></span>
+          <!-- <span id="livePreview" href="https://codiejay.github.io/dict/"></span> -->
+  
+        <!-- *********************** -->
+        <!-- END OF HIDDEN ELEMENTS -->
+            </figcaption>
+          </figure>
+        </a>
+        <!-- Project One Ends -->
+        
+        <!-- Project Two -->
+        <a class="project-item" target="_blank">
+          <figure class="project-figure">
+            <div class="project-overlay"></div>
+            <img src="https://live.staticflickr.com/65535/53098176244_db8c9e9aed_o.png">
+            <figcaption class="project-text">
+              <h2>Project Two</h2>
+              <p>University Browsing App</p>
+              
+  
+             <p class='hidden popUpdesc'> The University Explorer App is a user-friendly and efficient mobile application that empowers users to find the nearest universities based on their preferences and location. With a seamless integration of various APIs, including Google Maps API, Distance Matrix API, Google Street View API, and Geocoding API, the app offers a comprehensive university browsing experience.
+            </p>
+        <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+          <span id="githubRepo" href="https://github.com/felixlovescoding/University-Browsing-App"></span>
+          <!-- <span id="livePreview" href="https://codiejay.github.io/dict/"></span> -->
+  
+        <!-- *********************** -->
+        <!-- END OF HIDDEN ELEMENTS -->
+        </figcaption>
+        </figure>
+        </a>
+        <!-- Project Two Ends -->
+        
+        <!-- Project Three -->
+        <a class="project-item" target="_blank">
+          <figure class="project-figure">
+            <div class="project-overlay"></div>
+            <img src="https://live.staticflickr.com/65535/53097440622_8e1244d2f8_o.png">
+            <figcaption class="project-text">
+              <h2>Project Three</h2>
+              <p>Unity FPS Game</p>
+             <!-- *********************** -->
+              <!-- START OF HIDDEN ELEMENTS -->
+  
+              <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+              HINTS: The P tag next
+              First Anchor tag is for the project's github REPO
+              Second Anchor is for the project's live preview  -->
+  
+             <p class='hidden popUpdesc'> The Unity FPS Game is an action-packed first-person shooter (FPS) that promises an adrenaline-pumping gaming experience. Developed using the powerful Unity game engine and written in C#, this game delivers thrilling combat scenarios and immersive gameplay elements that captivate players from the moment they enter the virtual world.
+            </p>
+        <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+          <span id="githubRepo" href="https://learn.unity.com/project/fps-template"></span>
+          <!-- <span id="livePreview" href="https://codiejay.github.io/dict/"></span> -->
+  
+        <!-- *********************** -->
+        <!-- END OF HIDDEN ELEMENTS -->
+            </figcaption>
+          </figure>
+        </a>
+        <!-- Project Three Ends -->
+        
+        <!-- Project Four -->
+        <a class="project-item" target="_blank">
+          <figure class="project-figure">
+            <div class="project-overlay"></div>
+            <img src="https://live.staticflickr.com/65535/53097451992_5f90e44175_o.png">
+            <figcaption class="project-text">
+              <h2>Project Four</h2>
+              <p>Productivity Health App</p>
+             <!-- *********************** -->
+              <!-- START OF HIDDEN ELEMENTS -->
+  
+              <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+              HINTS: The P tag next
+              First Anchor tag is for the project's github REPO
+              Second Anchor is for the project's live preview  -->
+  
+             <p class='hidden popUpdesc'> The Productivity & Health Companion is an all-in-one app designed to empower users to strike a perfect balance between academic excellence and a healthy lifestyle. With a seamless integration of essential productivity tools and health management features, this app becomes the ultimate companion for students and professionals alike. The project is coded in java.
+            </p>
+        <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+          <span id="githubRepo" href="https://github.com/felixlovescoding/Productivity-Health-App"></span>
+          <!-- <span id="livePreview" href="https://codiejay.github.io/dict/"></span> -->
+  
+        <!-- *********************** -->
+        <!-- END OF HIDDEN ELEMENTS -->
+            </figcaption>
+          </figure>
+        </a>
+        <!-- Project Four Ends -->
+        
+        <!-- Project Five -->
+        <a class="project-item" target="_blank">
+          <figure class="project-figure">
+            <div class="project-overlay"></div>
+            <img src="https://live.staticflickr.com/65535/53098036916_b868c9002f_o.jpg">
+            <figcaption class="project-text">
+              <h2>Project Five</h2>
+              <p>FRC Team 9113</p>
+             <!-- *********************** -->
+              <!-- START OF HIDDEN ELEMENTS -->
+  
+              <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+              HINTS: The P tag next
+              First Anchor tag is for the project's github REPO
+              Second Anchor is for the project's live preview  -->
+  
+             <p class='hidden popUpdesc'> Our First Robotics Competition (FRC) Team is proud to present our latest achievement - a cutting-edge robotic masterpiece that boasts impressive balance and autonomous capabilities. Combining the expertise of our dedicated team members, we have developed a sophisticated program that empowers our robot to navigate flawlessly in both Tele-Op mode and Autonomous mode.
+            </p>
+        <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+          <span id="githubRepo" href="https://github.com/felixlovescoding/FRC-Programming-Team-9113"></span>
+          <!-- <span id="livePreview" href="https://codiejay.github.io/dict/"></span>
+   -->
+        <!-- *********************** -->
+        <!-- END OF HIDDEN ELEMENTS -->
+            </figcaption>
+          </figure>
+        </a>
+        <!-- Project Five Ends -->
+        
+        <!-- Project Six -->
+        <a class="project-item" target="_blank">
+          <figure class="project-figure">
+            <div class="project-overlay"></div>
+            <img src="https://live.staticflickr.com/65535/53098536558_7f4bd7e2b0_o.jpg">
+            <figcaption class="project-text">
+              <h2>Project Six</h2>
+              <p>Amazing Labyrinth</p>
+            <!-- *********************** -->
+              <!-- START OF HIDDEN ELEMENTS -->
+  
+              <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+              HINTS: The P tag next
+              First Anchor tag is for the project's github REPO
+              Second Anchor is for the project's live preview  -->
+  
+             <p class='hidden popUpdesc'> Welcome to the thrilling world of the "Amazing Labyrinth" board game, where adventure and strategy intertwine in a captivating quest for treasure! This Java-based program immerses players in a labyrinthine maze, challenging them to outwit an intelligent AI opponent while collecting valuable treasures along the way.
+            </p>
+        <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+          <span id="githubRepo" href="https://github.com/felixlovescoding/Amazing-Labyrinth-Game"></span>
+          <!-- <span id="livePreview" href="https://codiejay.github.io/dict/"></span> -->
+  
+        <!-- *********************** -->
+        <!-- END OF HIDDEN ELEMENTS -->
+            </figcaption>
+          </figure>
+        </a>
+        <!-- Project Six Ends -->
+        
+      </div>
+    </section>
+    <!-- Portfolio section ends -->
+    
+	
+	
+	<!-- Contact button section begins -->
+  <section class="content contact">
+    <!-- <a class="button-slide" data-hover="hello@email.com" href="mailto:hello@email.com">
+      <span>Talk To Me 👌</span>
+    </a> -->
+    <div id='form'>
+      <h1>Drop a message below.</h1>
+      <p>And I'll get to you ASAP</p>
+      <form action="https://formsubmit.co/happysoloxy@gmail.com" method="POST">
+        <input type="text" placeholder="Your Awesome Name" name="Name" required>
+        <input type="email" placeholder="Your cool email address" name="Email" required>
+        <textarea placeholder="Message here please" name="Message" required></textarea>
+        <div id='buttonDiv'>
+          <button type="submit">Send  <i class="uil uil-message"></i></button>
+          
+        </div>
+      </form>
+      
+    </div>
+    </section>
+	<!-- Contact button section ends-->
+	
+	<!-- Footer section begins - If you do not want links here, you can change the <li> items to just be <p> tags or whatever you require -->
+  <footer>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <a href="https://instagram.com/countryside.coder" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jamesabedford" target="_blank">Linkedin</a>
+				</li>
+				<li>
+						<a href="https://github.com/jabedford" target="_blank">GitHub</a>
+					</li>
+      </ul>
+    </div>
+	</footer>
+	<!-- Footer section ends -->
+  </main>
+  <!--This section would ONLY appear when an individual project 'box' is clicked, It gives more detail about the project. it contains-- IMAGE OF THE PROJECT, THE PROJECT'S NAME, THE PROJECT FULL DESCRIPTION, GITHUB LINK && PREVIEW LINK -->
+  <div class="popUp">
+    <div class="popUpImg"></div>
+    <div id="popUpText">
+      <h1>Project's Name</h1>
+      <p class="projectDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <!-- <a class="button-17" href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">Link</a> -->
+    
+      
+      <div>
+        <a class="button-17" role="button" target="_blank" href="" id="githubLink">Link</a>
+        <!-- <a target="_blank" class="button-17" href="" id="githubLink">GitHub Link</a> -->
+        <!-- <a class="button-17" href="" id="previewLink">Preview Link</a> -->
+      </div>
+
+    </div>
+    <span id="cancelBtn">X</span>
+  </div>
+</body>
+
+
+</html>
