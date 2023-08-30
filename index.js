@@ -1,3 +1,4 @@
+import { Skills } from "./skills";
 $(window).load(() => {
     windowLoaded();
   });
